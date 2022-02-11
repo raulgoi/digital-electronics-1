@@ -13,7 +13,7 @@ TEST GIT PUSH
 ```vhdl
 architecture dataflow of demorgan is
 begin
-    f_o      <= -- WRITE YOUR CODE HERE
+    f_orig      <= -- WRITE YOUR CODE HERE
     f_nand_o <= -- WRITE YOUR CODE HERE
     f_nor_o  <= -- WRITE YOUR CODE HERE
 end architecture dataflow;
