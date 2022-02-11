@@ -6,7 +6,9 @@ TEST GIT PUSH
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-   ![Logic function](images/equations.png)
+   f(c,b,a) = ´b a + ´c ´b
+   f(c,b,a)NAND = ´(´(´b a) + ´(´c ´b))
+   f(c,b,a)NOR = ´((´b a) + (´c ´b))
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
