@@ -13,8 +13,8 @@ TEST GIT PUSH
 ```vhdl
 architecture dataflow of demorgan is
 begin
-    forig_o      <= (not b_i and a_i) or (not c_i and not b_i);
-    f_nand_o <= -- WRITE YOUR CODE HERE
+    forig_o  <= (not b_i and a_i) or (not c_i and not b_i);
+    f_nand_o <= not(not(not b_i and a_i) or not(not c_i and b_i))
     f_nor_o  <= -- WRITE YOUR CODE HERE
 end architecture dataflow;
 ```
