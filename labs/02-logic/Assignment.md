@@ -54,4 +54,5 @@
 
 3. Link to your public EDA Playground example:
 
-   [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
+This is my link to the EDA Playgroung of the lab 02-logic:
+   https://www.edaplayground.com/x/jyBu
