@@ -50,7 +50,11 @@
 
 2. Text console screenshot during your simulation, including reports.
 
-   ![your figure]()
+   I try to simulate my EDA playground, but I don´t know why I have this error, and I can´t simulate. I think the code is correct
+   but I show you the error.
+   
+   ![Error EDA](https://user-images.githubusercontent.com/91128806/155302785-f360c18c-ade4-4920-a3ae-907520680182.png)
+
 
 3. Link to your public EDA Playground example:
 
