@@ -7,10 +7,10 @@
 ```vhdl
 architecture Behavioral of mux_3bit_4to1 is
 begin
-        f_o <= a_i when (sel_i = "00") else
-           b_i when (sel_i = "01") else
-           c_i when (sel_i = "10") else
-           d_i;
+        f_o <= a_i when (sel_i = "00") else -- When the input sel_i has the value 00, the output of de mux is the value of a_i
+               b_i when (sel_i = "01") else -- When the input sel_i has the value 01, the output of de mux is the value of b_i
+               c_i when (sel_i = "10") else -- When the input sel_i has the value 10, the output of de mux is the value of c_i
+               d_i; -- The rest value are for d_i
 
 end architecture Behavioral;
 ```
