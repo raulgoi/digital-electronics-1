@@ -17,7 +17,10 @@ end architecture Behavioral;
 
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   I have some errors with the simulation of EDA Playground in my computer. Here is the link to the EDA Playground, maybe you can see the waveform:
+
+        ![Screenshot (3)](https://user-images.githubusercontent.com/91128806/156581034-ca3d6ce2-de86-4310-a6c5-57b8a2074551.png)
+
+   
    https://www.edaplayground.com/x/tBin
 
 3. Listing of pin assignments for the Nexys A7 board in `nexys-a7-50t.xdc`. **DO NOT list** the whole file, just your switch and LED settings.
