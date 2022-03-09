@@ -9,13 +9,21 @@
     begin
         report "Stimulus process started" severity note;
 
-        -- First test case
         s_hex <= "0000"; wait for 50 ns;
         assert (s_seg = "0000001")
         report "Input combination 0000 FAILED" severity error;
-
-
-        -- WRITE OTHER TEST CASES HERE
+        
+        s_hex <= "1001"; wait for 50 ns;
+        assert (s_seg = "0000100")
+        report "Input combination 0000 FAILED" severity error;
+        
+        s_hex <= "0011"; wait for 50 ns;
+        assert (s_seg = "0000110")
+        report "Input combination 0000 FAILED" severity error;
+        
+        s_hex <= "0110"; wait for 50 ns;
+		assert (s_seg = "0100000")
+        report "Input combination 0000 FAILED" severity error;
 
 
         report "Stimulus process finished" severity note;
