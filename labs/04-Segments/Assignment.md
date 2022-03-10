@@ -85,7 +85,9 @@
 
 My playground = https://www.edaplayground.com/x/9_7d
 
-   ![your figure]()
+  
+![Screenshot (4)](https://user-images.githubusercontent.com/91128806/157685712-236eccbb-86df-44c1-849a-ec5900962f5c.png)
+
 
 ### LED(7:4) indicators
 
