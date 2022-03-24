@@ -30,11 +30,13 @@
             end if;
         end if;
     end process p_cnt_up_down;
-```
+
+
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   ![Screenshot (5)](https://user-images.githubusercontent.com/91128806/159940155-730eaab6-22d6-4c5c-9785-d9afe17859a0.png)
+
 
 ### Two counters
 
