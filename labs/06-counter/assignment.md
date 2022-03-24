@@ -14,7 +14,7 @@
     begin
         if rising_edge(clk) then
         
-            if (reset = '1') then   -- Synchronous reset
+             if (reset = '1') then   -- Synchronous reset
                 s_cnt_local <= (others => '0'); -- Clear all bits
 
             elsif (en_i = '1') then -- Test if counter is enabled
@@ -27,15 +27,15 @@
                     s_cnt_local <= s_cnt_local - 1;
                     
                   end if;
+
             end if;
         end if;
     end process p_cnt_up_down;
-
-
+```
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![Screenshot (5)](https://user-images.githubusercontent.com/91128806/159940155-730eaab6-22d6-4c5c-9785-d9afe17859a0.png)
+   ![Screenshot (5)](https://user-images.githubusercontent.com/91128806/159941182-655aa125-1386-4ef7-bbf8-5b75d7fa9eb6.png)
 
 
 ### Two counters
