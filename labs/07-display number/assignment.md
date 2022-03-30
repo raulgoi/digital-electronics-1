@@ -47,7 +47,8 @@
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   ![WhatsApp Image 2022-03-24 at 4 41 00 PM](https://user-images.githubusercontent.com/91128806/160892936-939967c0-a025-4e12-aee6-e1000c889415.jpeg)
+
 
 ### Eight-digit driver
 
